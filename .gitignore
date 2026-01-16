@@ -1,0 +1,8 @@
+gitlab/config/*
+!gitlab/config/gitlab.rb
+gitlab/data/
+gitlab/logs/
+jellyfin/cache
+jellyfin/config
+plex/*/config/
+plex/*/media/
