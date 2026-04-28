@@ -1,7 +1,7 @@
-gitlab/config/
-gitlab/data/
-gitlab/logs/
+gitlab/config
+gitlab/data
+gitlab/logs
 jellyfin/cache
 jellyfin/config
-plex/*/config/
-plex/*/media/
+plex/*/config
+plex/*/media

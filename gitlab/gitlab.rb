@@ -1,5 +1,4 @@
 gitlab_rails["gitlab_shell_ssh_port"] = 2424
-
 external_url "http://gitlab.blackbox.lab.p-exe.com"
 
 # Trafik handles TLS, so leave it off here
