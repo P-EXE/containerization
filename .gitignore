@@ -1,5 +1,4 @@
-gitlab/config/*
-!gitlab/config/gitlab.rb
+gitlab/config/
 gitlab/data/
 gitlab/logs/
 jellyfin/cache
