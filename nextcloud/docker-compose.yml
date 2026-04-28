@@ -1,7 +1,7 @@
 services:
   mariadb:
     image: mariadb:latest
-    container_name: mariadb
+    container_name: nextcloud_mariadb
     restart: unless-stopped
     command: --transaction-isolation=READ-COMMITTED --log-bin=ROW --skip-innodb-read-only-compressed
     volumes:
@@ -16,16 +16,16 @@ services:
 
   redis:
     image: redis:alpine
-    container_name: redis
-    hostname: redis
+    container_name: nextcloud_redis
+    hostname: nextcloud_redis
     restart: unless-stopped
     command: redis-server --requirepass test # REPLACE WITH REDIS PASSWORD
     networks:
       - default
 
-  nextcloud:
+  nextcloud-app:
     image: nextcloud
-    container_name: nextcloud
+    container_name: nextcloud_app
     restart: unless-stopped
     depends_on:
       - mariadb

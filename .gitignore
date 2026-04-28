@@ -7,8 +7,11 @@ homepage/config/logs
 jellyfin/cache
 jellyfin/config
 
+minecraft/data
+
 nextcloud/mysql-data
 nextcloud/nextcloud
 
 plex/*/config
 plex/*/media
+

@@ -21,6 +21,10 @@
         icon: plex.svg
         href: http://blackbox.lab.p-exe.com:32400/web/index.html#!/
         description: Media library & player running locally
+        widget:
+            type: plex
+            url: http://blackbox.lab.p-exe.com:32400
+            key: mytokenhere # see https://www.plexopedia.com/plex-media-server/general/plex-token/
     - Jellyfin:
         icon: jellyfin.svg
         href: http://jellyfin.blackbox.lab.p-exe.com/web/#/home
@@ -31,3 +35,18 @@
         icon: gitlab.svg
         href: http://gitlab.blackbox.lab.p-exe.com
         description: Git server
+
+- Gaming:
+    - Minecraft:
+        icon: minecraft.svg
+        href: blackbox.lab.p-exe.com:25565
+        description: Minecraft server
+        widget:
+            type: minecraft
+            url: udp://blackbox.lab.p-exe.com:25565
+
+- Office:
+    - Nextcloud:
+        icon: nextcloud.svg
+        href: http://nextcloud.blackbox.lab.p-exe.com
+        description: Cloud drive, calendar & more

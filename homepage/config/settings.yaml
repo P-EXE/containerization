@@ -36,6 +36,10 @@ layout:
     header: true
     style: row
     columns: 3
+  Office:
+    header: true
+    style: row
+    columns: 3
   Bookmarks:
     header: true
     style: column
