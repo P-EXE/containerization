@@ -1,7 +1,14 @@
 gitlab/config
 gitlab/data
 gitlab/logs
+
+homepage/config/logs
+
 jellyfin/cache
 jellyfin/config
+
+nextcloud/mysql-data
+nextcloud/nextcloud
+
 plex/*/config
 plex/*/media
