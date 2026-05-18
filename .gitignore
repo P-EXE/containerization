@@ -1,17 +1,24 @@
 gitlab/config
 gitlab/data
 gitlab/logs
+gitlab/.env
 
 homepage/config/logs
+homepage/.env
 
 jellyfin/cache
 jellyfin/config
+jellyfin/.env
 
 minecraft/data
 
 nextcloud/mysql-data
 nextcloud/nextcloud
+nextcloud/.env
 
 plex/*/config
 plex/*/media
 
+tautulli/secrets.env
+tautulli/config
+tautulli/.env

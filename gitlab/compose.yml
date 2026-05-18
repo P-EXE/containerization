@@ -15,9 +15,9 @@ services:
       - traefik
     labels:
       - traefik.enable=true
-      - traefik.http.routers.gitlab-http.rule=Host(`gitlab.blackbox.lab.p-exe.com`)
+      - traefik.http.routers.gitlab-http.rule=Host(`${HOST}`)
       - traefik.http.routers.gitlab-http.entrypoints=web
-      - traefik.http.services.gitlab-service.loadbalancer.server.port=80
+      - traefik.http.services.gitlab-service.loadbalancer.server.port=${PORT}
 networks:
   traefik:
     external: true
